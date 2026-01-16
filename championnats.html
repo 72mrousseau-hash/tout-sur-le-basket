@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basketball</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: rgb(54, 54, 54);
+         }
+        footer {
+              color: white;
+              border: 10px solid #ff6b00;
+              padding: 5px;
+              margin-top: 100px;
+              background-color: #ff6b00;
+         }
+        h1.league {
+                border: 2px solid #ff6b00;
+                border-radius: 100px;
+                padding: 5px;
+            }
+        body .accordion-button {
+            --bs-accordion-btn-color: #ffffff;
+            --bs-accordion-btn-bg: #464646;
+            --bs-accordion-active-btn-color:#646464;
+            --bs-accordion-active-bg: #909090; 
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar bg-body-tertiary" style="background-color: #ff6b00 !important;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="https://images.scalebranding.com/letter-s-basketball-logo-00a277be-6f35-4313-bc41-52f06bb2848e.jpg" alt="Logo" width="100" height="100">
+                    Basketball 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./championnats.html">Championnats</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./equipesetsalles.html">Equipes et Salles</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./joueurs.html">Joueurs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container text-center">
+            <div class="col" style="margin: 70px;">
+                <h1 class="league" style="color: white;">Championnats</h1>
+            </div>
+        </div>
+         <div class="accordion" id="accordionExample" style="margin-bottom: 100px;">
+            <div class="accordion-item" style="background-color:rgb(70, 70, 70); color: white; border-color: rgb(80, 80, 80);">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/87/NBA_Logo.svg/960px-NBA_Logo.svg.png" alt="" width="20" height="43" style="margin-right: 25px;">
+                         NBA
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>National Basketball League.</strong> La NBA s’impose aujourd’hui comme la référence mondiale du basketball professionnel, un modèle d’excellence sportive et de gestion moderne. Fondée sur une organisation rigoureuse et une mise en scène spectaculaire, elle réunit les meilleurs talents internationaux et offre un environnement où performance, innovation et stratégie se rencontrent. Chaque franchise fonctionne comme une véritable entreprise, combinant développement sportif, gestion financière, marketing global et engagement communautaire. Cette structure permet à la ligue de maintenir un niveau de compétitivité exceptionnel tout en renforçant son attractivité auprès d’un public toujours plus large.
+                            Sur le plan sportif, la NBA se distingue par un jeu dynamique, rythmé et en constante évolution. L’intégration des statistiques avancées, l’essor du tir à trois points et la polyvalence croissante des joueurs ont profondément transformé les stratégies. Les équipes misent désormais sur la vitesse, l’espacement du jeu et la créativité offensive, tout en développant des systèmes défensifs sophistiqués. Cette évolution permanente contribue à faire de la ligue un laboratoire d’innovations tactiques observé et imité dans le monde entier.
+                            Au-delà du terrain, la NBA joue un rôle majeur dans la culture contemporaine. Elle influence la mode, la musique, les réseaux sociaux et même les dynamiques sociétales. Les joueurs, devenus de véritables marques personnelles, participent activement à cette dimension culturelle grâce à leur visibilité mondiale et à leur engagement dans des causes sociales. La ligue, quant à elle, multiplie les initiatives internationales, organise des matchs à l’étranger et développe des programmes de formation pour promouvoir le basketball sur tous les continents.
+                            Grâce à cette combinaison unique de spectacle, de professionnalisme et d’impact global, la NBA s’est imposée comme un acteur incontournable du sport moderne. Elle continue de façonner l’avenir du basketball tout en consolidant son statut de ligue sportive la plus influente au monde.
+                            <a href="./equipesetsalles.html" class="btn btn-primary" style="margin: 10px; background-color: #ff6b00; border-color: #ff6b00;">équipes et salles</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="accordion-item" style="background-color:rgb(70, 70, 70); color: white; border-color: rgb(80, 80, 80);">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/3/34/Logo_Betclic_%C3%89lite_-_2025.svg/1662px-Logo_Betclic_%C3%89lite_-_2025.svg.png" alt="Bootstrap" width="28" height="40" style="margin-right: 25px;">
+                        Betclic Elite
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>La League Française.</strong> La Betclic Élite représente aujourd’hui le sommet du basketball professionnel français, une compétition structurée, exigeante et en pleine expansion. Portée par une organisation solide et par une stratégie de développement ambitieuse, elle réunit des clubs historiques et des projets émergents qui contribuent à élever le niveau du championnat. Chaque organisation fonctionne comme une entité professionnelle à part entière, combinant formation, performance sportive, gestion économique et ancrage territorial. Cette approche permet à la ligue de renforcer sa compétitivité tout en consolidant son attractivité auprès du public et des partenaires.
+                            Sur le plan sportif, la Betclic Élite se distingue par un style de jeu intense, tactique et très collectif. Les équipes s’appuient sur des joueurs polyvalents, des systèmes élaborés et une forte culture de la formation, qui fait de la France l’un des pays les plus prolifiques en talents NBA et EuroLeague. L’intégration de joueurs étrangers de haut niveau, la montée en puissance des statistiques avancées et l’évolution des philosophies de jeu contribuent à moderniser le championnat et à en faire un terrain d’innovation stratégique.
+                            Au-delà du terrain, la Betclic Élite joue un rôle essentiel dans le développement du basketball français. Elle soutient la formation des jeunes, dynamise les territoires à travers ses clubs et renforce la visibilité du basket grâce à des partenariats médiatiques et numériques. Les joueurs, de plus en plus médiatisés, participent à cette dynamique en devenant des figures locales et nationales, engagées dans la vie sportive et sociale.
+                            Grâce à cette combinaison de professionnalisme, de compétitivité et d’ancrage culturel, la Betclic Élite s’impose comme un pilier majeur du sport français. Elle continue de progresser, d’attirer de nouveaux talents et de contribuer à l’essor du basketball hexagonal, tout en affirmant son identité dans le paysage européen.
+                             <a href="./equipesetsalles.html" class="btn btn-primary" style="margin: 10px; background-color: #ff6b00; border-color: #ff6b00;">équipes et salles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" style="background-color:rgb(70, 70, 70); color: white; border-color: rgb(80, 80, 80);">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <img src="https://r2.thesportsdb.com/images/media/league/badge/7xjtuy1554397263.png" alt="Bootstrap" width="30" height="30" style="margin-right: 25px;">
+                        Euroleague
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Le Championnat d'Europe.</strong> L’EuroLeague s’impose comme la compétition reine du basketball européen, un championnat d’élite où se rencontrent les clubs les plus prestigieux et les joueurs les plus talentueux du continent. Structurée autour d’un modèle sportif et économique exigeant, elle combine excellence technique, intensité physique et rigueur tactique. Chaque club engagé fonctionne comme une organisation de haut niveau, intégrant formation, recrutement international, analyse de données et gestion stratégique pour rester compétitif dans un environnement où chaque détail compte.
+                            Sur le plan sportif, l’EuroLeague se distingue par un style de jeu particulièrement dense et méthodique. Les rencontres sont marquées par une grande précision tactique, des défenses structurées et une capacité d’adaptation permanente. Contrairement à d’autres ligues, la compétition repose sur un calendrier resserré et un niveau homogène, ce qui rend chaque match décisif. Les entraîneurs y jouent un rôle central, imposant des systèmes complexes et une discipline collective qui font de l’EuroLeague un véritable laboratoire du basketball moderne.
+                            Au-delà du terrain, l’EuroLeague représente un modèle de développement unique en Europe. Elle s’appuie sur une identité forte, une mise en scène soignée et une stratégie de marque ambitieuse. Les clubs, souvent ancrés dans des villes où le basket est une culture à part entière, bénéficient d’un soutien populaire massif. La ligue investit également dans la digitalisation, la diffusion internationale et l’expérience fan, renforçant son attractivité auprès d’un public toujours plus large.
+                            Grâce à cette combinaison de professionnalisme, d’intensité sportive et d’impact culturel, l’EuroLeague s’est imposée comme l’une des compétitions les plus exigeantes et respectées au monde. Elle continue de façonner le basketball européen, d’attirer des talents internationaux et de proposer un spectacle d’une qualité exceptionnelle, faisant d’elle un pilier incontournable du sport moderne.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" style="background-color:rgb(70, 70, 70); color: white; border-color: rgb(80, 80, 80);">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/af/EuroBasket_2025_logo.svg.png/250px-EuroBasket_2025_logo.svg.png" alt="Bootstrap" width="30" height="40" style="margin-right: 25px;">
+                        Eurobasket
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Le choc des pays d'Europe.</strong> L’EuroBasket est le championnat d’Europe masculin de basketball, une compétition où s’affrontent les meilleures équipes nationales du continent. Créé en 1935 et organisé par FIBA Europe, il réunit aujourd’hui 24 nations tous les quatre ans dans un tournoi majeur qui détermine le champion d’Europe. Considéré comme l’une des compétitions les plus prestigieuses du basket mondial, l’EuroBasket a vu défiler des générations de stars et a façonné l’histoire du basketball européen grâce à son niveau de jeu élevé et à son importance sportive et culturelle.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" style="background-color:rgb(70, 70, 70); color: white; border-color: rgb(80, 80, 80);">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <img src="https://upload.wikimedia.org/wikipedia/fr/9/9b/Pictogramme_basketball_JO_2024.svg" alt="Bootstrap" width="40" height="30" style="margin-right: 25px;">
+                        Basketball aux Jeux Olympiques
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Le plus prestigieux des tournois Mondiaux.</strong>Le basketball est l’une des disciplines phares des Jeux olympiques, réunissant les meilleures équipes nationales du monde dans un tournoi intense et spectaculaire. Introduit pour la première fois en 1936, il se décline aujourd’hui en deux formats : le basketball traditionnel à 5 contre 5, disputé en salle, et le basket 3×3, version plus rapide et urbaine jouée sur un demi‑terrain. Chaque équipe s’affronte pour marquer un maximum de points en envoyant le ballon dans le panier adverse, tout en défendant le sien. Les États-Unis dominent historiquement la compétition en 5×5, tandis que le 3×3, plus récent, offre souvent des surprises. Aux J.O., ce sport combine intensité, stratégie et performances athlétiques de haut niveau, faisant vibrer les spectateurs du monde entier.
+                </div>
+            </div>
+         </div>
+        
+    </main>
+    <footer>
+        <div class="container text-center">
+            <div class="row align-items-end">
+                <div class="col">
+                    <a class="nav-link" style="margin-top: 100px;" href="./production.html">PRODUCTION</a>
+                </div>
+                <div class="col">
+                    <a class="nav-link" style="margin-top: 100px;" href="./sources.html">SOURCES</a>
+                </div>
+                <div class="col">
+                     <a class="nav-link" style="margin-top: 100px;" href="./autres.html">AUTRES</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
